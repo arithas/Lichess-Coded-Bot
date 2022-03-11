@@ -86,6 +86,10 @@ engine:                      # Engine settings.
     Move Overhead: 400       # Increase if your bot flags games too often.
     Threads: 3               # Max CPU threads the engine can use.
     Hash: 128                # Max memory (in megabytes) the engine can allocate.
+    MultiPv: 1
+    Ponder: true
+    UCI_Elo: 2850
+    Skill Level: 20
 #   go_commands:             # Additional options to pass to the UCI go command.
 #     nodes: 1               # Search so many nodes only.
 #     depth: 5               # Search depth ply only.
