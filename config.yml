@@ -98,7 +98,7 @@ engine:                      # Engine settings.
     KingAttackWeight: 30
     KingShelterWeight: 150
     Repeat Score: 50 
-     Book File: "engines/book.bin"
+     Book File: "SF"
     
 #   go_commands:             # Additional options to pass to the UCI go command.
 #     nodes: 1               # Search so many nodes only.
