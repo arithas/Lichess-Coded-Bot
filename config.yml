@@ -83,14 +83,24 @@ engine:                      # Engine settings.
   homemade_options:
 #   Hash: 256  
   uci_options:               # Arbitrary UCI options passed to the engine.
-    Move Overhead: 200       # Increase if your bot flags games too often.
-    Threads: 8               # Max CPU threads the engine can use.
-    Hash: 200               # Max memory (in megabytes) the engine can allocate.
+    Move Overhead: 1000      # Increase if your bot flags games too often.
+    Threads: 4               # Max CPU threads the engine can use.
+    Hash: 4096                 # Max memory (in megabytes) the engine can allocate.
     MultiPv: 1
     Ponder: true
     UCI_Elo: 2850
     Skill Level: 20
-    slower move: 20
+    slower move: 30
+    NetworkLag: 10
+    MaterialWeight: 90
+    PassedPawnWeight: 180
+    MobilityWeight: 250
+    ThreatWeight: 300
+    KingAttackWeight: 30
+    KingShelterWeight: 150
+    Repeat Score: 50 
+     Book File: "engines/book.bin"
+    
 #   go_commands:             # Additional options to pass to the UCI go command.
 #     nodes: 1               # Search so many nodes only.
 #     depth: 5               # Search depth ply only.
