@@ -90,8 +90,7 @@ engine:                      # Engine settings.
     Ponder: true
     UCI_Elo: 2850
     Skill Level: 20
-    slower move: 30
-    NetworkLag: 10
+     NetworkLag:  10
     MaterialWeight: 90
     PassedPawnWeight: 180
     MobilityWeight: 250
